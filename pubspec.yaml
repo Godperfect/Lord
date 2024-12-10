@@ -1,4 +1,4 @@
-name: namida
+name: Riya music
 description: A Beautiful and Feature-rich Music Player, With YouTube & Video Support Built in Flutter
 publish_to: "none"
 version: 4.8.1-beta+241208024
@@ -10,12 +10,12 @@ environment:
 dependency_overrides:
   just_audio_platform_interface:
     git:
-      url: https://github.com/MSOB7YY/just_audio
+      url: https://github.com/Godperfect/just_audio
       path: just_audio_platform_interface/
       ref: video
   on_audio_query_platform_interface:
     git:
-      url: https://github.com/MSOB7YY/on_audio_query
+      url: https://github.com/Godperfect/on_audio_query
       path: packages/on_audio_query_platform_interface
 
 dependencies:
@@ -27,7 +27,7 @@ dependencies:
   # ---- Core ----
   nampack:
     git:
-      url: https://github.com/MSOB7YY/nampack
+      url: 
   dart_extensions:
     git:
       url: https://github.com/MSOB7YY/dart_extensions
@@ -74,7 +74,7 @@ dependencies:
   # ---- Audio Indexing & Playback ----
   just_audio:
     git:
-      url: https://github.com/MSOB7YY/just_audio
+      url: https://github.com/Godperfect/just_audio
       path: just_audio/
       ref: video
   audio_service:
@@ -87,7 +87,7 @@ dependencies:
       url: https://github.com/namidaco/basic_audio_handler
   on_audio_query:
     git:
-      url: https://github.com/MSOB7YY/on_audio_query
+      url: https://github.com/Godperfect/on_audio_query
       path: packages/on_audio_query
 
   # ---- Video Indexing & Playback ----
@@ -191,9 +191,9 @@ flutter:
         - asset: assets/fonts/LexendDeca/LexendDeca-Thin.ttf
 
 msix_config:
-  display_name: Namida
-  publisher_display_name: namidaco
-  identity_name: com.msob7y.namida
+  display_name: RiyaTube
+  publisher_display_name: Mr perfect
+  identity_name: com.mrperfect.Riya
   logo_path: assets\namida_icon_monet.png
   capabilities: musicLibrary, videosLibrary, internetClient
   # certificate_path: .certificates\CERTIFICATE.pfx
