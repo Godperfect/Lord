@@ -1,0 +1,46 @@
+name: Flutter CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  flutter:
+    name: Flutter Workflow
+    runs-on: ubuntu-latest
+
+    steps:
+    # Step 1: Check out the repository
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    # Step 2: Set up Flutter
+    - name: Set up Flutter
+      uses: subosito/flutter-action@v2
+      with:
+        flutter-version: "stable"
+
+    # Step 3: Install dependencies
+    - name: Install dependencies
+      run: flutter pub get
+
+    # Step 4: Run Flutter analyzer (lint)
+    - name: Analyze code
+      run: flutter analyze
+
+    # Step 5: Run Flutter tests
+    - name: Run tests
+      run: flutter test
+
+    # Step 6: Build APK (optional, for Android)
+    - name: Build APK
+      run: flutter build apk --release
+
+    # Step 7: Build iOS app (optional, requires macOS)
+    # Uncomment this step if you want to build for iOS and use a macOS runner.
+    # - name: Build iOS
+    #   run: flutter build ios --release
