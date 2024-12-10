@@ -1,4 +1,4 @@
-package com.msob7y.namida
+package com.mrperfect.devil
 
 import io.flutter.plugin.common.BinaryMessenger
 import io.flutter.plugin.common.EventChannel

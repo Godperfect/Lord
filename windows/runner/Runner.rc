@@ -89,13 +89,13 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-            VALUE "CompanyName", "com.msob7y" "\0"
-            VALUE "FileDescription", "namida" "\0"
+            VALUE "CompanyName", "com.Perfect" "\0"
+            VALUE "FileDescription", "Perfect" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
             VALUE "InternalName", "namida" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2024 com.msob7y. All rights reserved." "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2024 com.Godperfect.All rights reserved." "\0"
             VALUE "OriginalFilename", "namida.exe" "\0"
-            VALUE "ProductName", "namida" "\0"
+            VALUE "ProductName", "Perfect" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

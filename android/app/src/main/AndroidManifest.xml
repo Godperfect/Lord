@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.msob7y.namida">
+    package="com.mrperfect.devil">
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -18,7 +18,7 @@
      </intent>
      </queries>
     <application
-        android:label="Namida"
+        android:label="Mr perfect"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher"
         android:appCategory="audio"
@@ -28,7 +28,7 @@
         android:allowBackup="true"
     >
         <activity
-            android:name=".NamidaMainActivity"
+            android:name=".PerfectMainActivity"
             android:exported="true"
             android:launchMode="singleTask"
             android:theme="@style/LaunchTheme"

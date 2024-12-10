@@ -1,4 +1,4 @@
-package com.msob7y.namida
+package com.mrperfect.devil
 
 import android.annotation.SuppressLint
 import android.content.ContentUris

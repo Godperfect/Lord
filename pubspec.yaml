@@ -193,7 +193,7 @@ flutter:
 msix_config:
   display_name: RiyaTube
   publisher_display_name: Mr perfect
-  identity_name: com.mrperfect.Riya
+  identity_name: com.mrperfect.devil
   logo_path: assets\namida_icon_monet.png
   capabilities: musicLibrary, videosLibrary, internetClient
   # certificate_path: .certificates\CERTIFICATE.pfx
